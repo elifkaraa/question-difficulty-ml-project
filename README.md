@@ -6,15 +6,15 @@ Makine öğrenimi modelleri kullanılarak önce sayısal regresyon, ardından s�
 Geleneksel olarak soru zorluk seviyeleri uzmanlar tarafından manuel olarak belirlenir. Bu süreç zaman alıcıdır ve her soruda tutarlı değerlendirme yapmak zordur. Bu proje şu sorulara yanıt aramaktadır:
 Soru metninin uzunluğu
 
-Test türü
+- Test türü
 
-Konu alanı
+- Konu alanı
 
-Okunabilirlik seviyesi
+- Okunabilirlik seviyesi
 
-Seçenek sayısı
+- Seçenek sayısı
 
-Hesap makinesi gerektirip gerektirmemesi
+- Hesap makinesi gerektirip gerektirmemesi
 Bu özelliklerin zorluk seviyesi üzerindeki etkisi analiz edilmiştir.
 
 ## Dataset Hakkında
