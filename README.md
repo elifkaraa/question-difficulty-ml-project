@@ -51,18 +51,23 @@ Notebook içinde aşağıdaki analizler yapılmıştır:
 #### Difficulty Level dağılımı
 
 → Dataset dengesiz, Moderate sınıfı çok az.
+![Difficulty](grafik1.png)
 
 #### Topic Area frekans grafiği
 
 → “Math” ve “Reading” kategorileri baskın.
+![Topic Area](grafik2.png)
 
 #### Question Length histogramı
 
 → Uzun metinler genelde daha yüksek zorlukla ilişkili.
+![Question Length](grafik3.png)
 
 #### Readability Grade histogramı
 
 → Orta seviyede yoğunlaşmış.
+![Readability](grafik4.png)
+
 Bu analizler, model seçiminde önemli bir temel oluşturmuştur.
 ## Kullanılan Modeller
 
