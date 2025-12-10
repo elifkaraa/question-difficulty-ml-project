@@ -20,21 +20,21 @@ Bu özelliklerin zorluk seviyesi üzerindeki etkisi analiz edilmiştir.
 ## Dataset Hakkında
 Dataset, standart test sorularına ait 100 örnekten oluşmaktadır. Her soru şu bilgileri içerir:
 
-Test_Name (SAT Math, GRE Verbal, ACT, GMAT…)
+- Test_Name (SAT Math, GRE Verbal, ACT, GMAT…)
 
-Topic_Area (Algebra, Reading, Data Insights…)
+- Topic_Area (Algebra, Reading, Data Insights…)
 
-Question_Text
+- Question_Text
 
-Options_Count
+- Options_Count
 
-Question_Length_Words
+- Question_Length_Words
 
-Readability_Grade
+- Readability_Grade
 
-Requires_Calculator
+- Requires_Calculator
 
-Difficulty_Level (Easy, Moderate, Hard → hedef değişken)
+- Difficulty_Level (Easy, Moderate, Hard → hedef değişken)
 Hedef değişken:
 
 Easy = 0
