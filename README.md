@@ -48,22 +48,22 @@ Dataset temizdir ve eksik değer bulunmamaktadır.
 ## Keşifsel Veri Analizi
 Notebook içinde aşağıdaki analizler yapılmıştır:
 
-#### Difficulty Level dağılımı
+### Difficulty Level dağılımı
 
 → Dataset dengesiz, Moderate sınıfı çok az.
 ![Difficulty](grafik1.png)
 
-#### Topic Area frekans grafiği
+### Topic Area frekans grafiği
 
 → “Math” ve “Reading” kategorileri baskın.
 ![Topic Area](grafik2.png)
 
-#### Question Length histogramı
+### Question Length histogramı
 
 → Uzun metinler genelde daha yüksek zorlukla ilişkili.
 ![Question Length](grafik3.png)
 
-#### Readability Grade histogramı
+### Readability Grade histogramı
 
 → Orta seviyede yoğunlaşmış.
 ![Readability](grafik4.png)
@@ -73,7 +73,7 @@ Bu analizler, model seçiminde önemli bir temel oluşturmuştur.
 
 Bu projede üç farklı model denenmiştir:
 
-#### Linear Regression
+### Linear Regression
 
 - Regression modeli sınıflandırma problemine uygun değildir.
 
@@ -81,7 +81,7 @@ Bu projede üç farklı model denenmiştir:
 
 - R² negatif → Yetersiz performans.
 
-####  Logistic Regression
+###  Logistic Regression
 
 - Çok sınıflı sınıflandırma için uygundur.
 
@@ -89,7 +89,7 @@ Bu projede üç farklı model denenmiştir:
 
 - Moderate sınıfında başarısız → Veri az.
 
-####  Random Forest Classifier (Final Model)
+###  Random Forest Classifier (Final Model)
 
 - Küçük ve dengesiz veri setlerinde kararlı.
 
@@ -110,7 +110,7 @@ Aşağıdaki tablo modellerin performansını özetler:
 |  Random Forest |  **0.55** |  **0.49** | En başarılı model |
 
 ## Grafikler
-#### Linear Regression
+### Linear Regression
 
 - Scatter Plot (Gerçek – Tahmin)
 
@@ -118,11 +118,11 @@ Aşağıdaki tablo modellerin performansını özetler:
 
 - Residual Histogram
 
-#### Logistic Regression
+### Logistic Regression
 
 - Confusion Matrix
 
-#### Random Forest
+### Random Forest
 
 - Confusion Matrix
 
