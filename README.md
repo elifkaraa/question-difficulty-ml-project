@@ -125,3 +125,23 @@ Aşağıdaki tablo modellerin performansını özetler:
 
 Bu grafikler model davranışını ve hata dağılımını görsel olarak açıklamaktadır.
 
+## Neden Random Forest En Başarılı Model Oldu?
+
+- Ensemble yapısı sayesinde genelleme yeteneği yüksek.
+
+- Küçük datasetlerde Logistic Regression’dan daha dengeli.
+
+- Doğrusal olmayan ilişkileri yakalayabilir.
+
+- Hard sınıfında en yüksek recall değerine ulaştı.
+
+- Weighted F1 diğer modellerden daha yüksek.
+
+Bu nedenlerle final model olarak seçilmiştir.
+
+## Sonuç
+
+Bu projede standart test sorularının zorluk seviyesini tahmin etmek için üç farklı model denenmiş ve Random Forest’ın en başarılı sonuçları verdiği gösterilmiştir.
+
+Daha büyük ve dengeli bir dataset ile model performansı önemli ölçüde artırılabilir.
+
