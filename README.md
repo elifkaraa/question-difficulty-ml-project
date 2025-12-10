@@ -70,26 +70,26 @@ Bu projede üç farklı model denenmiştir:
 
 #### Linear Regression
 
-Regression modeli sınıflandırma problemine uygun değildir.
+- Regression modeli sınıflandırma problemine uygun değildir.
 
-Sayısal tahmin üretir, sınıfı direkt veremez.
+- Sayısal tahmin üretir, sınıfı direkt veremez.
 
-R² negatif → Yetersiz performans.
+- R² negatif → Yetersiz performans.
 
 ####  Logistic Regression
 
-Çok sınıflı sınıflandırma için uygundur.
+- Çok sınıflı sınıflandırma için uygundur.
 
-Hard sınıfında güçlü performans (%82 recall).
+- Hard sınıfında güçlü performans (%82 recall).
 
-Moderate sınıfında başarısız → Veri az.
+- Moderate sınıfında başarısız → Veri az.
 
 ####  Random Forest Classifier (Final Model)
 
-Küçük ve dengesiz veri setlerinde kararlı.
+- Küçük ve dengesiz veri setlerinde kararlı.
 
-Easy ve Hard sınıflarında en iyi performans.
+- Easy ve Hard sınıflarında en iyi performans.
 
-Doğrusal olmayan ilişkileri öğrenebilir.
+- Doğrusal olmayan ilişkileri öğrenebilir.
 
-Bu nedenle final model olarak seçilmiştir.
+- Bu nedenle final model olarak seçilmiştir.
