@@ -104,3 +104,24 @@ Aşağıdaki tablo modellerin performansını özetler:
 | Logistic Regression | **0.50** | **0.29** | Moderate sınıfı öğrenemedi |
 |  Random Forest |  **0.55** |  **0.49** | En başarılı model |
 
+## Grafikler
+#### Linear Regression
+
+- Scatter Plot (Gerçek – Tahmin)
+
+- Residual Plot
+
+- Residual Histogram
+
+#### Logistic Regression
+
+- Confusion Matrix
+
+#### Random Forest
+
+- Confusion Matrix
+
+- Feature Importance Grafiği
+
+Bu grafikler model davranışını ve hata dağılımını görsel olarak açıklamaktadır.
+
