@@ -1,6 +1,6 @@
 # Standardized Test Question Difficulty Prediction
 Bu proje, sınav sorularının zorluk seviyesini (Easy / Moderate / Hard) otomatik tahmin etmek amacıyla geliştirilmiştir.
-Model, soru metni, kelime uzunluğu, konu alanı, okunabilirlik skoru gibi özellikleri kullanarak bir sınıflandırma yapar.Bu çalışmada makine öğrenimi modelleri kullanılarak önce sayısal regresyon, ardından sınıflandırma tabanlı yaklaşımlar denenmiş ve en başarılı model belirlenmiştir.
+Model, soru metni, kelime uzunluğu, konu alanı, okunabilirlik skoru gibi özellikleri kullanarak bir sınıflandırma yapar.Bu çalışmada makine öğrenimi modelleri kullanılarak önce sayısal regresyon, ardından sınıflandırma tabanlı yaklaşımlar denenmiş ve en başarılı model belirlenmiştir.  
 Burada tahmin etmek istediğimiz problem şudur:
 
 Bir sınav sorusunun özellikleri verilince, bu sorunun zorluk seviyesini doğru tahmin edebilir miyiz?
@@ -17,7 +17,7 @@ Soru metninin uzunluğu
 
 - Seçenek sayısı
 
-- Hesap makinesi gerektirip gerektirmemesi
+- Hesap makinesi gerektirip gerektirmemesi  
 Bu özelliklerin zorluk seviyesi üzerindeki etkisi analiz edilmiştir.
 
 ## Dataset Hakkında
