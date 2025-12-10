@@ -57,8 +57,15 @@ Notebook içinde aşağıdaki analizler yapılmıştır:
 
 ### Difficulty Level dağılımı
 
-→ Dataset dengesiz, Moderate sınıfı çok az.
+→ Veri setinde Easy / Moderate / Hard sınıflarının dengeli olup olmadığı incelenmiştir.  
+
 ![Difficulty](grafik1.png)
+
+- "Hard" sınıfı diğer sınıflara göre daha fazladır.
+
+- "Moderate" sınıfı çok az örneğe sahiptir → Bu, modellerin bu sınıfı öğrenmesini zorlaştırmıştır.
+
+- Sınıf dengesizliği Logistic Regression ve RF performansını doğrudan etkilemiştir.
 
 ### Topic Area frekans grafiği
 
