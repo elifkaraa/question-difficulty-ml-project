@@ -93,3 +93,14 @@ Bu projede üç farklı model denenmiştir:
 - Doğrusal olmayan ilişkileri öğrenebilir.
 
 - Bu nedenle final model olarak seçilmiştir.
+  
+## Model Sonuçlarının Karşılaştırılması
+
+Aşağıdaki tablo modellerin performansını özetler:
+
+| Model | Accuracy | Macro F1 | Açıklama |
+|-------|----------|----------|-----------|
+| Linear Regression | — | — | Sınıflandırmaya uygun değil |
+| Logistic Regression | **0.50** | **0.29** | Moderate sınıfı öğrenemedi |
+|  Random Forest |  **0.55** |  **0.49** | En başarılı model |
+
