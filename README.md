@@ -1,6 +1,9 @@
 # Standardized Test Question Difficulty Prediction
-Bu proje, standart test sorularının (SAT, ACT, GRE, GMAT vb.) zorluk seviyesini Easy / Moderate / Hard olarak tahmin etmek amacıyla geliştirilmiştir.
-Makine öğrenimi modelleri kullanılarak önce sayısal regresyon, ardından sınıflandırma tabanlı yaklaşımlar denenmiş ve en başarılı model belirlenmiştir.
+Bu proje, sınav sorularının zorluk seviyesini (Easy / Moderate / Hard) otomatik tahmin etmek amacıyla geliştirilmiştir.
+Model, soru metni, kelime uzunluğu, konu alanı, okunabilirlik skoru gibi özellikleri kullanarak bir sınıflandırma yapar.Bu çalışmada makine öğrenimi modelleri kullanılarak önce sayısal regresyon, ardından sınıflandırma tabanlı yaklaşımlar denenmiş ve en başarılı model belirlenmiştir.
+Burada tahmin etmek istediğimiz problem şudur:
+
+Bir sınav sorusunun özellikleri verilince, bu sorunun zorluk seviyesini doğru tahmin edebilir miyiz?
 
 ## Projenin Amacı
 Geleneksel olarak soru zorluk seviyeleri uzmanlar tarafından manuel olarak belirlenir. Bu süreç zaman alıcıdır ve her soruda tutarlı değerlendirme yapmak zordur. Bu proje şu sorulara yanıt aramaktadır:
