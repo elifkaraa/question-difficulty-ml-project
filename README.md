@@ -6,8 +6,10 @@ Burada tahmin etmek istediğimiz problem şudur:
 Bir sınav sorusunun özellikleri verilince, bu sorunun zorluk seviyesini doğru tahmin edebilir miyiz?
 
 ## Projenin Amacı
-Geleneksel olarak soru zorluk seviyeleri uzmanlar tarafından manuel olarak belirlenir. Bu süreç zaman alıcıdır ve her soruda tutarlı değerlendirme yapmak zordur. Bu proje şu sorulara yanıt aramaktadır:   
-Soru metninin uzunluğu   
+Geleneksel olarak soru zorluk seviyeleri uzmanlar tarafından manuel olarak belirlenir. Bu süreç zaman alıcıdır ve her soruda tutarlı değerlendirme yapmak zordur.   
+Bu proje şu sorulara yanıt aramaktadır:    
+Soru metninin özellikleri kullanılarak zorluk seviyesi tahmin edilebilir mi?  
+Bu amaçla aşağıdaki faktörler analiz edilmiştir:
 
 - Test türü
 
@@ -17,7 +19,7 @@ Soru metninin uzunluğu
 
 - Seçenek sayısı
 
-- Hesap makinesi gerektirip gerektirmemesi  
+- Hesap makinesi gerektirip gerektirmemesi
 Bu özelliklerin zorluk seviyesi üzerindeki etkisi analiz edilmiştir.
 
 ## Dataset Hakkında
@@ -37,7 +39,7 @@ Dataset, standart test sorularına ait 100 örnekten oluşmaktadır. Her soru ş
 
 - Requires_Calculator
 
-- Difficulty_Level (Easy, Moderate, Hard → hedef değişken)
+- Difficulty_Level (Easy, Moderate, Hard → hedef değişken)  
 Hedef değişken:
 
 Easy = 0
