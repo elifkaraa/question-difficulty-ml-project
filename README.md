@@ -69,18 +69,41 @@ Notebook içinde aşağıdaki analizler yapılmıştır:
 
 ### Topic Area frekans grafiği
 
-→ “Math” ve “Reading” kategorileri baskın.
+→  Soruların ait olduğu konu alanlarının dağılımı incelenmiştir.
+
 ![Topic Area](grafik2.png)
+
+- En fazla soru “Math” ve “Data Insights” alanlarında toplanmıştır.
+
+- Konu alanı ile zorluk seviyesi arasında zayıf fakat gözlemlenebilir bir ilişki bulunmaktadır.
+
+- Özellikle Reading Comprehension sorularının daha çok Easy/Moderate seviyesine sahip olduğu görülmüştür.
 
 ### Question Length histogramı
 
-→ Uzun metinler genelde daha yüksek zorlukla ilişkili.
+→  Soru metinlerinin kelime sayıları incelenmiştir.  
+
 ![Question Length](grafik3.png)
+
+- Soru uzunlukları geniş bir aralıkta değişmektedir.
+
+- Hard sorular genellikle daha uzun olma eğilimindedir.
+
+- Easy soruların büyük kısmı daha kısa metinlerden oluşur.
+
+Bu özellik model için önemli bir belirleyici olmuştur.
 
 ### Readability Grade histogramı
 
-→ Orta seviyede yoğunlaşmış.
+→ Soruların okunabilirliğini ölçen "Readability_Grade" değişkeni analiz edilmiştir.  
+
 ![Readability](grafik4.png)
+
+- Okunabilirlik skoru arttıkça zorluk seviyesinin de arttığı görülmektedir.
+
+- Hard soruların okunabilirlik seviyesi daha yüksektir.
+
+- Bu nedenle readability, modelde önemli bir özellik olarak değerlendirilmiştir.
 
 Bu analizler, model seçiminde önemli bir temel oluşturmuştur.
 ## Kullanılan Modeller
