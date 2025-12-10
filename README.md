@@ -20,6 +20,7 @@ Bu amaçla aşağıdaki faktörler analiz edilmiştir:
 - Seçenek sayısı
 
 - Hesap makinesi gerektirip gerektirmemesi
+  
 Bu özelliklerin zorluk seviyesi üzerindeki etkisi analiz edilmiştir.
 
 ## Dataset Hakkında
@@ -39,7 +40,8 @@ Dataset, standart test sorularına ait 100 örnekten oluşmaktadır. Her soru ş
 
 - Requires_Calculator
 
-- Difficulty_Level (Easy, Moderate, Hard → hedef değişken)  
+- Difficulty_Level (Easy, Moderate, Hard → hedef değişken)
+  
 Hedef değişken:
 
 Easy = 0
