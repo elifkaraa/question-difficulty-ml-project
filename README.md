@@ -105,6 +105,18 @@ Bu özellik model için önemli bir belirleyici olmuştur.
 
 - Bu nedenle readability, modelde önemli bir özellik olarak değerlendirilmiştir.
 
+#### EDA sonunda şu sonuçlara ulaşılmıştır:
+
+- Sınıf dağılımı dengesizdir → Moderate sınıfı az.
+
+- Soru uzunluğu ve okunabilirlik seviyesi zorlukla doğrudan ilişkilidir.
+
+- Konu alanı etkili fakat tek başına belirleyici değildir.
+
+- Eksik veri bulunmamaktadır → Veri temizleme ihtiyacı yoktur.
+
+- Özelliklerin model tarafından öğrenilebilecek yeterli varyansı vardır.
+
 Bu analizler, model seçiminde önemli bir temel oluşturmuştur.
 ## Kullanılan Modeller
 
